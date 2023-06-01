@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #chat-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  #join-form input[type="text"],
+  #join-form input[type="password"],
+  #chat-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #join-button,
+  #send-button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #messages-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #messages-list li {
+    margin-bottom: 10px;
+  }
+  
+  #error-message {
+    color: red;
+  }
+  
