@@ -1,0 +1,28 @@
+{
+  "name": "realtimegroupchat",
+  "version": "1.0.0",
+  "description": "realtimegroupchat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/venkateshelumalai/realtimegroupchat.git"
+  },
+  "keywords": [
+    "Venkat"
+  ],
+  "author": "Venkat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/venkateshelumalai/realtimegroupchat/issues"
+  },
+  "homepage": "https://github.com/venkateshelumalai/realtimegroupchat#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "mongodb": "^5.5.0",
+    "ws": "^8.13.0"
+  }
+}
